@@ -21,7 +21,6 @@ This project demonstrates how to integrate **Amazon S3 with Snowflake** using
 3. Configure Storage Integration with Amazon S3
 4. Create External Stage
 5. Load Data from S3 into Snowflake
-6. Validate and Query Data
 
 ---
 
@@ -118,6 +117,7 @@ select * from employee_data;
 Data successfully loaded from Amazon S3 into Snowflake
 
 Data validated using SQL queries
+
 
 
 
