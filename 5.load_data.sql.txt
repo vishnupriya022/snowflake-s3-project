@@ -1,0 +1,6 @@
+--Transfer data to target table from external stage
+
+copy into employee_data from @my_stage0222
+on_error = continue;
+
+select * from employee_data;

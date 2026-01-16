@@ -1,0 +1,12 @@
+--Storage Integration
+
+create storage integration my_inte2232
+Type = external_stage
+storage_provider = s3
+storage_aws_role_arn='arn:aws:iam::585008062593:role/datamigration'
+enabled=true
+storage_allowed_locations=('s3://datamigrations3vp/datamigration.csv');
+
+--Describe integration
+
+describe storage integration my_inte2232;

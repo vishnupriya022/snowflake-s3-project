@@ -1,0 +1,10 @@
+--create external stage
+
+create stage my_stage0222
+storage_integration=my_inte2232
+url='s3://datamigrations3vp/datamigration.csv';
+
+--view external stage
+
+SELECT $1, $2, $3, $4 
+FROM @my_stage0222;

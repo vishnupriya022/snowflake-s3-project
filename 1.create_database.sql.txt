@@ -1,0 +1,7 @@
+--CREATE DATABASE
+
+CREATE  DATABASE s3_demo_db1;
+
+--CREATE SCHEMA
+
+CREATE SCHEMA s3_demo_schema1;

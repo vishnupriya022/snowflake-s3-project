@@ -1,0 +1,8 @@
+--Table Creation
+
+CREATE OR REPLACE TABLE employee_data (
+    emp_id NUMBER,
+    emp_name VARCHAR,
+    emp_dept VARCHAR,
+    emp_salary NUMBER
+);
