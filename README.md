@@ -35,13 +35,13 @@ snowflake-s3-project/
 ├── 03_storage_integration.sql
 ├── 04_external_stage.sql
 ├── 05_load_data.sql
-├── 06_validation_queries.sql
 └── README.md
 
 ```
 
 ### Create Database & Schema
-sql
+
+
 CREATE DATABASE s3_demo_db1;
 CREATE SCHEMA s3_demo_schema1;
 
